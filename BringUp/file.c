@@ -6,24 +6,6 @@
 #include<SDL2/SDL.h>
 
 #include "file.h"
-/*
-typedef struct {
-    char name[24];
-    Uint16 score;
-    char date[24];
-}score_t;
-
-typedef struct {
-    Uint16 id;
-    bool won;
-    score_t score;
-    int game[6][6];
-}player_t;
-
-typedef struct {
-    FILE* file;
-    char path[64];
-}file_t;*/
 
 bool _save_player(file_t* fm,player_t* player){
     if(fwrite(player,sizeof(player_t),1,fm->file)<=0){
