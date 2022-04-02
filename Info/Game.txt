@@ -1,0 +1,12 @@
+BringUp is a game about 7x7 grid of numbers between 0-4 
+that must connected diagonally (by a 6x6 grid of diagonals),
+the game has a timer which will stop when all the cells of 
+diagonals have been filled in correctly by the Player.
+
+the game currently includes a high-score table, and ability
+to pause/resume/save/load. missing features are:
+    -playing against the computer.
+    -having to computers play against each-other.
+
+report pdf is in french but includes few screenshots about
+ the game UI.
