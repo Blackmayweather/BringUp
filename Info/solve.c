@@ -1,4 +1,8 @@
 // the basic algorithme for solving a variant of the problem.
+/*
+summary: start with connecting the 4s then the borders, 
+then you work your way inside layer(new border) by layer.
+*/
 
 int con(int T[7][7],int S[6][6],int i,int j){
     int cmpt=0;
